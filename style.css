@@ -1,0 +1,146 @@
+  <style>
+        body {
+            background-color: #f7d3f1;
+
+            h1 {
+                color: #773364;
+            }
+
+            h2 {
+                color: #7e175f;
+            }
+
+            H3 {
+                color: #5a3557;
+            }
+
+            h4 {
+                color: #2e1323;
+            }
+
+            h5 {
+                color: #591250c6;
+            }
+
+            p {
+                color: #361b50;
+            }
+        }
+
+
+        .portada {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 30px;
+            padding: 50px 7%;
+            background-color: #f4c8df;
+        }
+
+        .texto-portada {
+            flex: 1;
+        }
+
+        .texto-portada h2 {
+            color: #6c2156d3;
+            font-size: 38px;
+        }
+
+        .texto-portada p {
+            color: #54253a;
+            font-size: 17px;
+            line-height: 1.7;
+        }
+
+        .foto-principal {
+            width: 48%;
+            height: 380px;
+            object-fit: cover;
+            border-radius: 22px;
+            box-shadow: 0 8px 20px #DCC2CA;
+        }
+
+        .boton {
+            display: inline-block;
+            background-color: #95616D;
+            color: rgb(237, 230, 235);
+            padding: 15px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .boton:hover {
+            background-color: #95616D;
+        }
+
+        .plan-entrenamiento {
+            padding: 50px 7%;
+            background-color: #f4c8df;
+            text-align: center;
+        }
+
+        .plan-entrenamiento h2 {
+            color: #B77E8A;
+            font-size: 30px;
+        }
+
+        .subtitulo {
+            color: #4b4a4a;
+            margin-bottom: 30px;
+        }
+
+        .tabla-entreno {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px #ead5db;
+        }
+
+        .tabla-entreno th {
+            background-color: #B77E8A;
+            color: white;
+            padding: 16px;
+        }
+
+        .tabla-entreno td {
+            padding: 15px;
+            color: #4b4a4a;
+            border-bottom: 1px solid #F2E1E6;
+        }
+
+        .tabla-entreno tr:nth-child(even) {
+            background-color: #FCEFF3;
+        }
+
+        .tabla-entreno tr:hover {
+            background-color: #f0baf1;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            padding: 15px;
+        }
+
+        nav a {
+            color: #9F6D7A;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #D69AAA;
+        }
+
+        h1 {
+            text-align: center;
+            color: #B77E8A;
+        }
+    </style>
